@@ -1,11 +1,11 @@
 <?php
 /**
- * @link https://github.com/himiklab/yii2-recaptcha-widget
- * @copyright Copyright (c) 2014-2019 HimikLab
+ * @link https://github.com/strelkovk/yii2-recaptcha-widget
+ * @copyright Copyright (c) 2014-2019 strelkovk
  * @license http://opensource.org/licenses/MIT MIT
  */
 
-namespace himiklab\yii2\recaptcha;
+namespace strelkovk\yii2\recaptcha;
 
 use Yii;
 use yii\base\Exception;
@@ -15,8 +15,8 @@ use yii\validators\Validator;
 /**
  * ReCaptcha widget validator base class.
  *
- * @author HimikLab
- * @package himiklab\yii2\recaptcha
+ * @author strelkovk
+ * @package strelkovk\yii2\recaptcha
  */
 abstract class ReCaptchaBaseValidator extends Validator
 {
