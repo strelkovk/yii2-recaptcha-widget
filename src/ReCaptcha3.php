@@ -91,10 +91,10 @@ class ReCaptcha3 extends InputWidget
             'render' => $this->siteKey,
         ]);
 
-        $view->registerJsFile(
-            $this->jsApiUrl . '?' . $arguments,
-            ['position' => $view::POS_END]
-        );
+//        $view->registerJsFile(
+//            $this->jsApiUrl . '?' . $arguments,
+//            ['position' => $view::POS_END]
+//        );
 
         $loadJs = $this->jsApiUrl . '?' . $arguments;
         $view->registerJs(
